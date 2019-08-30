@@ -1,0 +1,92 @@
+body{
+	height: 100%;
+	background-image: url("achtergrond.jpg");
+	
+}
+#kop{
+	text-align: center;
+	color: #000;
+	
+	
+
+}
+
+#navigatie{
+	color: black;
+	background-color: #0b1114;
+	height: 100%;
+	position: absolute;
+	width:190px;
+	left:5px;
+	top: 100px;
+}
+#navigatie ul li {
+		list-style: none;
+		position: relative;
+		top:100px;
+		line-height: 50px;
+
+}
+#navigatie ul li a {
+	color: #FFFEFF;
+	text-decoration: none;
+
+}
+#navigatie ul li:hover {
+	color: #000;
+	background-color: #436276;
+	margin-bottom: : 5px;
+	width:150px;
+	opacity: 0.8;
+	text-align: center;
+}
+#content{
+	position: absolute;
+	text-align: left;
+	background-color: #e9ebec;
+	left:200px;
+	top:100px;
+	width:75%;
+	height:100%;
+}
+#content article{
+	position: relative;
+	left:100px;
+	top:20px;
+}
+/*Profiel pagina*/
+#kenmerken{
+	background-color: #e9ebec;
+	width:800px;
+
+}
+#kenmerken ul li{
+	list-style: none;
+	font-size:150%;
+	line-height: 50px;
+	color: #fffeff;
+	text-align:center;
+	background-color: #131c22;
+	width:700px;
+	margin:15px;
+	
+
+
+
+}
+
+#kenmerken ul li ul li{
+  background-color: #e9ebec;
+  color:#000;
+ font-size:70%;
+ text-align: center;
+ position: relative;
+ right:60px;
+ width:800px;
+
+
+
+
+
+
+}
