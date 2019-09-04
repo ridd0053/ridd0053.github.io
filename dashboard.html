@@ -1,55 +1,206 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
-<head>
-	<title>Homepagina</title>
-	<link type="text/css" rel="stylesheet" href="opmaak.css">
-</head>
-<body>
-	<header id="kop">
-		<h1>Homepagina</h1>
-	</header>
-	<nav id="navigatie">
-		<ul>
-			<li><a href="index.html">Homepagina</a></li>
-			<li><a href="pp.html">Profiel pagina</a></li>
-			<li><a href="dashboard.html">dashboard</a></li>
-		</ul>
-	</nav>
-	<section id="content">
-		<article>
-		<p>jdjkdcifdl</p>
-		</article>
-	</section>
-	<!--
-<h1>Resultaten:</h1>
-<table>
-	<tr>
-		<th>Blok 1</th>
-		<td>OBO</td>
-		<td>Computer science basics</td>
-		<td>Programming basics</td>
-	</tr>
-	<tr>
-		<th>Blok 2</th>
-		<td>Professional skills 1</td>
-		<td>HZ personality 1</td>
-		<td>Object oriented programming</td>
-</tr>
-	<tr>
-		<th>Blok 3</th>
-		<td>Professional skills 1</td>
-		<td>HZ personality 1</td>
-		<td>Object oriented programming</td>
-</tr>
-	<tr>
-		<th>Blok 4</th>
-		<td>Professional skills 1</td>
-		<td>HZ personality 1</td>
-		<td>Object oriented programming</td>
-</tr>
--->
-
-</body>
+	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Dashboard</title>
+		<link type="text/css" rel="stylesheet" href="opmaak.css">
+	</head>
+	<body>
+		<header id="kop">
+			<h1 class="orange">Studiemonitor</h1>
+		</header>
+		<nav id="navigatie">
+			<ul>
+				<li><a href="/">Homepagina</a></li>
+				<li><a href="pp.html">Profielpagina</a></li>
+				<li>Dashboard &#9660;
+					<ul>
+						<li><a href="dashboard.html">Studiemonitor</a></li>
+						<li><a href="studiewijzer.html">Studiewijzer </a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<section id="content">
+			<article id="studiemonitor">
+				<div id="dashboard">
+					<table >
+						<tr>
+							<th class="width80"></th>
+							<th class="width300">Cursus</th>
+							<th class="width200">Toets</th>
+							<th>Weging</th>
+							<th>EC</th>
+						</tr>
+						<tr>
+							<td class="blauw bold" rowspan="3">Blok 1:</td>
+							<td class="blauw1">Opleidings- en beroepsoriëntatie</td>
+							<td class="blauw1">Eindgesprek</td>
+							<td class="blauw1">100%</td>
+							<td class="blauw1"id="ec">2.5</td>
+						</tr>
+						<tr>
+							<td class="blauw2">Computer science basics</td>
+							<td class="blauw2">Theorietentamen</td>
+							<td class="blauw2">100%</td>
+							<td class="blauw2">7.5</td>
+						</tr>
+						<tr>
+							<td class="blauw1">Programming basics</td>
+							<td class="blauw1">Casustoets</td>
+							<td class="blauw1">100%</td>
+							<td class="blauw1">5</td>
+						</tr>
+						<tr class="paars1">
+							<td rowspan="6" class="bold paars">Blok 2:</td>
+							<td rowspan="3" class="paars1">Professional skills 1</td>
+							<td>Presentatie</td>
+							<td>33%</td>
+							<td rowspan="3">2.5</td>
+						</tr>
+						<tr class="paars1">
+							<td >Verslag</td>
+							<td>33%</td>
+            	    	</tr>
+   			 			<tr class="paars1">
+							<td>Functioneringsgesprek</td>
+							<td>33%</td>
+            	    	</tr>
+						<tr class="paars2">
+							<td class="paars2">HZ personality 1</td>
+							<td >Portfolio</td>
+							<td>100%</td>
+							<td>2.5</td>
+						</tr>
+						<tr class="paars1">
+							<td rowspan="2">Object-oriented programming</td>
+							<td>Casustoets</td>
+							<td>50%</td>
+							<td rowspan="2">5</td>
+						</tr>
+						<tr class="paars1">
+							<td >Groepsproject</td>
+							<td>50%</td>
+						</tr>
+						<tr>
+							<td rowspan="7" class="bold groen">Blok 3:</td>
+							<td class="groen1" rowspan="3">Professional skills 2</td>
+							<td class="groen1">Agile functioneren</td>
+							<td class="groen1">50%</td>
+							<td class="groen1" rowspan="3">2.5</td>
+						</tr>
+						<tr class="groen1">
+							<td>Engels opdrachten</td>
+							<td>25%</td>
+						</tr>
+						<tr class="groen1">
+							<td>Engels werkstuk</td>
+							<td>25%</td>
+						</tr>
+						<tr class="groen2">
+							<td>Professionele werkplek</td>
+							<td>Eindgesprek</td>
+							<td>100%</td>
+							<td>2.5</td>
+						</tr>
+						<tr class="groen1">
+							<td>Framework development 1</td>
+							<td>Casustoets</td>
+							<td>100%</td>
+							<td>5</td>
+						</tr>
+						<tr class="groen2">
+							<td rowspan="2">Framework project 1</td>
+							<td>Requirementsverslag</td>
+							<td>50%</td>
+							<td rowspan="2">5</td>
+						</tr>
+						<tr class="groen2">
+							<td>Projectresultaat</td>
+							<td>50%</td>
+						</tr>
+						<tr>
+							<td rowspan="7" class="bold bruin">Blok 4:</td>
+							<td class="bruin1" rowspan="3">Professional skills 3</td>
+							<td class="bruin1">Agile functioneren</td>
+							<td class="bruin1">50%</td>
+							<td class="bruin1" rowspan="3">2.5</td>
+						</tr>
+						<tr class="bruin1">
+							<td>Engels opdrachten</td>
+							<td >25%</td>
+						</tr>
+						<tr class="bruin1" >
+							<td>Engels werkstuk</td>
+							<td >25%</td>
+						</tr>
+						<tr class="bruin2" >
+							<td>IT personality</td>
+							<td>Portfolio</td>
+							<td>100%</td>
+							<td>2.5</td>
+						</tr>
+						<tr class="bruin1">
+							<td>Framework development 2</td>
+							<td>Opdrachten</td>
+							<td>100%</td>
+							<td>5</td>
+						</tr>
+						<tr class="bruin2">
+							<td rowspan="2">Framework project 2</td>
+							<td>Code reviews</td>
+							<td>50%</td>
+							<td rowspan="2">5</td>
+						</tr>
+						<tr class="bruin2">
+							<td>Projectresultaat</td>
+							<td>50%</td>
+						</tr>
+					</table>
+				</div>
+				<div id="richlijnen">
+					<h3>Richlijnen:</h3>
+					<table>
+						<tr>
+							<td colspan="2" class="bold">Voor propodeuse:</td>
+							<td class="textCenter">60 EC</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="bold">NBSA:</td>
+							<td class="textCenter">45 EC</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="bold">Behaalde punten:</td>
+							<td class="textCenter">0 EC</td>
+						</tr>
+						<tr>
+							<td  class="bold">Progres aantal punten:</td>
+							<td colspan="2" class="textCenter"><progress id="punten" value="0" max="60"></progress></td>
+						</tr>
+						<tr>
+							<td class="geslaagd width100 textCenter ">Geslaagd</td>
+							<td class="gefaald width100 textCenter ">Niet behaald</td>
+							<td class="herkansing width100 textCenter">Herkansing</td>
+						</tr>
+					</table>
+				</div>
+			</article>
+			<div class="lijnen">
+				<div class="lijn1"></div>
+				<div class="lijn2"></div>
+				<div class="lijn3"></div>
+				<div class="lijn4"></div>
+				<div class="lijn5"></div>
+				<div class="lijn6"></div>
+				<div class="lijn7"></div>
+			</div>
+		</section>
+		<footer>
+			<div id="footer">
+				<p>Mijn website &copy;</p>
+			</div>
+		</footer>
+	</body>
 </html>

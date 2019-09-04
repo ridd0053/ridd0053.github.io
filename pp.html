@@ -1,48 +1,90 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Profiel Pagina</title>
-	<link type="text/css" rel="stylesheet" href="opmaak.css">
-</head>
-<body>
-	<header id="kop">
-		<h1>Profielpagina</h1>
-	</header>
-	<nav id="navigatie">
-		<ul>
-			<li><a href="index.html">Homepagina</a></li>
-			<li><a href="pp.html">Profiel pagina</a></li>
-			<li><a href="dashboard.html">Dashboard</a></li>
-		</ul>
-	</nav>
-	<section id="content">
-		<article id="kenmerken">
-		<ul>
-		<li>Eerlijk
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Profielpagina</title>
+		<link type="text/css" rel="stylesheet" href="opmaak.css">
+	</head>
+	<body>
+		<header id="kop">
+			<h1 class="orange">Profielpagina</h1>
+		</header>
+		<nav id="navigatie">
 			<ul>
-			<li>reden: ik hou niet van lieg en ik probeer aardig eerlijk te zijn.</li>
+				<li><a href="index.html">Homepagina</a></li>
+				<li><a href="pp.html">Profielpagina</a></li>
+				<li>Dashboard &#9660;
+					<ul>
+						<li><a href="dashboard.html">Studiemonitor</a></li>
+						<li><a href="studiewijzer.html">Studiewijzer </a></li>
+					</ul>
+				</li>
 			</ul>
-		</li>
-		<li>Speels
-			<ul>
-			<li>reden: ik vind het altijd leuk om de opmaak van content aan te passen.</li>
-			</ul>
-		</li>
-		<li>Gevoelig
-			<ul>
-			<li>reden: ik raak snel in de stress en hierdoor kan ik emotioneel worden.</li>
-			</ul>
-		</li>
-		<li>Bescheiden
-			<ul>
-			<li>reden: ik vind het moeilijk om goede eigenschappen van mij zelf op te noemen.</li>
-			</ul>
-		</li>
-		</ul>
-		</article>
-	</section>
-
-	
-</body>
+		</nav>
+		<section id="content">
+			
+			<article id="pp">
+				<div id="persoonsgegevens">
+					<img src="me.png" id="me" alt="capuchon op">
+						<ul id="gegevens">
+							<li class="naam"><span class="bold purple">Naam:</span> Ilse</li>
+							<li class="leeftijd"><span class="bold purple">Leeftijd:</span> 23 jaar</li>
+							<li class="geslacht"><span class="bold purple">Geslacht:</span> vrouw</li>
+						</ul>
+						<h3 class="green">Werk en opleiding:</h3>
+						<ul id="werk" >
+							<li class="bold">Werk:
+								<ul>
+								<li>Krantenwijk</li>
+								</ul>
+							</li>
+							<li class="bold">Opleidingen:
+								<ul>
+									<li>Bedrijfsadministratie MBO niveau 4</li>
+									<li>Praktijkdiploma boekhouden</li>
+									<li>Webdesign</li>
+								</ul>
+							</li>
+						</ul>	
+			
+				</div>
+				<div id="OverigeGegevens">
+					<h3 class="purple" >Persoonlijke eigenschappen:</h3>
+					<ul>
+						<li>Loyaal</li>
+						<li>Verlegen</li>
+						<li>Inlevingsvermogen</li>
+						<li>Voorzichtig</li>
+						<li>Afwachtend</li>
+					</ul>
+					<h3 class="green">Hobbies:</h3>
+					<ul>
+						<li>Gamen</li>
+						<li>Series kijken
+							<ul>
+								<li>Netflix</li>
+								<li>Anime</li>
+							</ul>
+						</li>
+						<li>Koken en bakken</li>
+						<li>Muziek luisteren</li>
+					</ul>
+				</div>
+			</article>
+			<div class="lijn1"></div>
+			<div class="lijn2"></div>
+			<div class="lijn3"></div>
+			<div class="lijn4"></div>
+			<div class="lijn5"></div>
+			<div class="lijn6"></div>
+			<div class="lijn7"></div>
+		</section>
+		<footer>
+			<div id="footer">
+				<p>Mijn website &copy;</p>
+			</div>
+		</footer>
+	</body>
 </html>
