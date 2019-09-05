@@ -31,27 +31,27 @@
 							<th class="width80"></th>
 							<th class="width300">Cursus</th>
 							<th class="width200">Toets</th>
-							<th>Weging</th>
-							<th>EC</th>
+							<th class="width100">Weging</th>
+							<th class="width50">EC</th>
 						</tr>
-						<tr>
+						<tr class="blauw1">
 							<td class="blauw bold" rowspan="3">Blok 1:</td>
-							<td class="blauw1">Opleidings- en beroepsoriëntatie</td>
-							<td class="blauw1">Eindgesprek</td>
-							<td class="blauw1">100%</td>
-							<td class="blauw1"id="ec">2.5</td>
+							<td>Opleidings- en beroepsoriëntatie</td>
+							<td>Eindgesprek</td>
+							<td>100%</td>
+							<td>2.5</td>
 						</tr>
-						<tr>
-							<td class="blauw2">Computer science basics</td>
-							<td class="blauw2">Theorietentamen</td>
-							<td class="blauw2">100%</td>
-							<td class="blauw2">7.5</td>
+						<tr class="blauw2">
+							<td >Computer science basics</td>
+							<td>Theorietentamen</td>
+							<td>100%</td>
+							<td>7.5</td>
 						</tr>
-						<tr>
-							<td class="blauw1">Programming basics</td>
-							<td class="blauw1">Casustoets</td>
-							<td class="blauw1">100%</td>
-							<td class="blauw1">5</td>
+						<tr class="blauw1">
+							<td >Programming basics</td>
+							<td>Casustoets</td>
+							<td>100%</td>
+							<td>5</td>
 						</tr>
 						<tr class="paars1">
 							<td rowspan="6" class="bold paars">Blok 2:</td>
@@ -78,18 +78,18 @@
 							<td rowspan="2">Object-oriented programming</td>
 							<td>Casustoets</td>
 							<td>50%</td>
-							<td rowspan="2">5</td>
+							<td rowspan="2">10</td>
 						</tr>
 						<tr class="paars1">
 							<td >Groepsproject</td>
 							<td>50%</td>
 						</tr>
-						<tr>
+						<tr class="groen1">
 							<td rowspan="7" class="bold groen">Blok 3:</td>
-							<td class="groen1" rowspan="3">Professional skills 2</td>
-							<td class="groen1">Agile functioneren</td>
-							<td class="groen1">50%</td>
-							<td class="groen1" rowspan="3">2.5</td>
+							<td rowspan="3">Professional skills 2</td>
+							<td>Agile functioneren</td>
+							<td>50%</td>
+							<td rowspan="3">2.5</td>
 						</tr>
 						<tr class="groen1">
 							<td>Engels opdrachten</td>
@@ -121,12 +121,12 @@
 							<td>Projectresultaat</td>
 							<td>50%</td>
 						</tr>
-						<tr>
+						<tr class="bruin1">
 							<td rowspan="7" class="bold bruin">Blok 4:</td>
-							<td class="bruin1" rowspan="3">Professional skills 3</td>
-							<td class="bruin1">Agile functioneren</td>
-							<td class="bruin1">50%</td>
-							<td class="bruin1" rowspan="3">2.5</td>
+							<td rowspan="3">Professional skills 3</td>
+							<td>Agile functioneren</td>
+							<td>50%</td>
+							<td rowspan="3">2.5</td>
 						</tr>
 						<tr class="bruin1">
 							<td>Engels opdrachten</td>
@@ -173,7 +173,7 @@
 						</tr>
 						<tr>
 							<td colspan="2" class="bold">Behaalde punten:</td>
-							<td class="textCenter">0 EC</td>
+							<td class="textCenter"><input placeholder="Vul je EC's in" id="EC" type="textfield"></td>
 						</tr>
 						<tr>
 							<td  class="bold">Progres aantal punten:</td>
@@ -185,6 +185,8 @@
 							<td class="herkansing width100 textCenter">Herkansing</td>
 						</tr>
 					</table>
+					<br>
+					<input type="button" onClick="mijnfunctie()" value="Klik op mij!.">
 				</div>
 			</article>
 			<div class="lijnen">
@@ -202,5 +204,6 @@
 				<p>Mijn website &copy;</p>
 			</div>
 		</footer>
+		<script src="punten.js"></script>
 	</body>
 </html>
