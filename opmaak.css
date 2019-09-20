@@ -19,6 +19,8 @@ body{
 	.width200{width:200px;}
 	.width300{width:300px;}
 	.textCenter{text-align:center;}
+	.schuin{font-style: italic;}
+	.onderlijn{text-decoration: underline;}
 /*einde classes*/
 
 /*globaal*/
@@ -33,17 +35,14 @@ body{
 			position: fixed;
 			top: 0px;
 			font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+			z-index: 2;
 		}
 		#kop h1{margin-left: 100px;}
 		#code{padding-top:2%;}
 	/* einde kop*/
 
 	/*
-#content{
-	margin-left:100px;
-	margin-top: 200px;
-	
-}*/
+
 	/*Navigatie balk*/
 		#navigatie {
 			width: 70%;
@@ -51,13 +50,14 @@ body{
 			position: fixed;
 			top: 0px;
 			right: 0px;
+			z-index: 2;
 		}
 		#navigatie ul {
 			margin: 0px;
 			margin: 0px;
 			list-style: none;
 			position: relative;
-			right: 500px;
+			right: 400px;
 			float:right;
 		}
 		#navigatie ul li {
@@ -78,9 +78,10 @@ body{
 			background-color: #00A6AA;
 			opacity: 1;
 		}
-		#navigatie ul li ul li {display: none;
+		#navigatie ul li ul li {
+			display: none;
 			position: relative;
-			left: 500px;
+			left: 400px;
 			top: -2px;
 			opacity: 0.8;
 		}
@@ -303,7 +304,7 @@ body{
 
 	#studiewijzer ul li a{
 		text-decoration:none;
-		color:#EF7C00;;
+		color:#EF7C00;
 	}
 	#studiewijzer ul li{
 		line-height: 1.5em;
@@ -316,3 +317,59 @@ body{
 		margin-left: 20px;
 	}
 /* einde studiewijzer*/
+/*Motivatie*/
+.titel h3, .titel p{ display: inline;}
+.bron{
+	font-style: italic;
+	color: #EF7C00;
+	font-size: 14px;
+	text-decoration: none;
+	display: inline;
+}
+.bron:hover{
+	font-weight: bold;
+	font-style: italic;
+}
+
+/*id theorie*/
+#theorie, #prestatiemotivatie, #carrièreankers, #conclusie{width: 83.5%;}
+
+#motivatieSoorten ol li{font-weight: bold; line-height: 0.1em;}
+
+#kaarsvraagstuk{
+	margin-right: 300px;
+	position: relative;
+	left: 200px;
+	top: -30px;
+	background-color: #fdfd96;
+	width: 300px;
+	float: right;
+	clear: both;
+	z-index: 1;
+	padding: 10px;
+	box-shadow: 10px 10px grey;
+	
+}
+#kaarsvraagstuk p{line-height: -1em;}
+#sam{float: left;}
+
+/*id argumenten*/
+/*id prestatiemotivatie*/
+#prestatiemotivatie ul li {list-style: none;}
+/*id carrièreankers*/
+/*id bronnenlijst*/
+#bronnenlijst{
+	padding-bottom: 20px;
+}
+#bronnenlijst a, #bronnenlijst li{
+	color: #00A6AA;
+	text-decoration: none;
+	
+}
+#bronnenlijst a{
+	line-height: 1em; 
+	display: block;}
+#bronnenlijst li{line-height: 2em;}
+
+#bronnenlijst a:hover /*,#bronnenlijst p:hover*/{font-weight: bold;}
+/*Einde Motivatie*/
