@@ -21,6 +21,7 @@ body{
 	.textCenter{text-align:center;}
 	.schuin{font-style: italic;}
 	.onderlijn{text-decoration: underline;}
+	/*.actief{background-color: blue;}*/
 /*einde classes*/
 
 /*globaal*/
@@ -78,6 +79,7 @@ body{
 			background-color: #00A6AA;
 			opacity: 1;
 		}
+		
 		#navigatie ul li ul li {
 			display: none;
 			position: relative;
@@ -340,7 +342,7 @@ body{
 	margin-right: 300px;
 	position: relative;
 	left: 200px;
-	top: -30px;
+	top: -110px;
 	background-color: #fdfd96;
 	width: 300px;
 	float: right;
