@@ -21,6 +21,11 @@ body{
 	.textCenter{text-align:center;}
 	.schuin{font-style: italic;}
 	.onderlijn{text-decoration: underline;}
+	.bg-orange{background-color: #EF7C00}
+	.bg-blue{background-color: #00A6AA}
+	.bg-green{background-color: #7CAF21}
+	.bg-purple{background-color: #941981}
+	.bg-black{background-color: #212121}
 	/*.actief{background-color: blue;}*/
 /*einde classes*/
 
@@ -58,7 +63,7 @@ body{
 			margin: 0px;
 			list-style: none;
 			position: relative;
-			right: 400px;
+			right: 250px;
 			float:right;
 		}
 		#navigatie ul li {
@@ -75,7 +80,7 @@ body{
 			color: #fff;
 			text-decoration: none;
 		}
-		#navigatie ul li:hover {
+		#navigatie ul li:hover{
 			background-color: #00A6AA;
 			opacity: 1;
 		}
@@ -83,7 +88,7 @@ body{
 		#navigatie ul li ul li {
 			display: none;
 			position: relative;
-			left: 400px;
+			left: 250px;
 			top: -2px;
 			opacity: 0.8;
 		}
@@ -373,5 +378,84 @@ body{
 	display: block;}
 #bronnenlijst li{line-height: 2em;}
 
-#bronnenlijst a:hover /*,#bronnenlijst p:hover*/{font-weight: bold;}
+#bronnenlijst a:hover {font-weight: bold;}
 /*Einde Motivatie*/
+
+/*Beroepsbeeld*/
+#beroepsbeeld{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	justify-content: space-between;
+	
+}
+.flexcolumn{
+	display: flex;
+	flex-direction: column;
+}
+
+.flexrow{
+	display: flex;
+	flex-direction: row;
+}
+
+.box{
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 2%;
+	
+}
+.box h2{text-align: center;}
+
+#consultancy{
+	border: 10px solid #7CAF21;
+
+}
+#capman{
+	margin-left: 5px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+#software {
+	border: 10px solid #941981;
+	margin-left: 150px;
+	
+}
+
+
+#financieel {
+	border: 10px solid #212121;
+	flex: 2;
+}
+#secPicBb{
+	width: 200px;
+	height: 300px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	flex: 1;
+	
+}
+#overheid {
+	border: 10px solid #EF7C00;
+	margin-left: 150px;
+}
+#detailhandel {
+	border: 10px solid #00A6AA;
+	flex:4;
+}
+#pop{
+	height: 300px;
+	margin-top: 10px;
+	margin-left: 5px;
+	flex: 1;
+	
+}
+#conclusieBb{
+ width: 100%;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+
+
+/*einde Beroepsbeeld*/
